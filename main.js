@@ -1,3 +1,13 @@
+const _Name = () => {
+  let playerName = prompt("Please enter your name:");
+  if (playerName) {
+    alert(`Hello, ${playerName}! Let's play Tic Tac Toe.`);
+  } else {
+    alert("Hello! Let's play Tic Tac Toe.");
+  }
+};
+_Name();
+
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
